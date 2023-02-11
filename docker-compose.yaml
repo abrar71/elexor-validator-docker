@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  elixir_validator:
+    image: elixirprotocol/validator:testnet-1
+    restart: always
+    environment:
+      ADDRESS: "YOUR_ADRESS_HERE"
+      PRIVATE_KEY: "YOUR_PRIVATE_ADDRESS_HERE"
